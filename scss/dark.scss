@@ -1,0 +1,53 @@
+.dark {
+    display: flex;
+    background: $color-black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+  
+    .logo {
+      margin: 70px;
+      width: 400px;
+      height: 200px;
+    }
+  
+    .text {
+      width: 600px;
+      margin: 70px 0;
+  
+      p {
+        font-size: 0.7em;
+      }
+  
+      .divider-orange {
+        max-width: 200px;
+        height: 2px;
+        background: $color-orange;
+        margin: 20px 0;
+      }
+    }
+  
+    .titles {
+      display: flex;
+      margin: 20px 0;
+      gap: 10px;
+      align-items: center;
+  
+      h3 {
+        margin: 10px 0;
+        font-size: 0.9em;
+      }
+  
+      .title-icon {
+        background: $color-orange;
+        border-radius: 100px;
+  
+        i {
+          width: 50px;
+          line-height: 50px;
+          text-align: center;
+          
+        }
+      }
+    }
+  }

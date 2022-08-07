@@ -1,0 +1,169 @@
+@media (max-width: 600px) {
+    nav {
+      #burger {
+        display: block;
+        align-self: center;
+      }
+    
+      .nav-buttons {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        background: $color-black;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        padding-bottom: 20px;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: 0.3s;
+      }
+    
+      .open {
+        transform: translateY(0%);
+        opacity: 1;
+      }  
+    }
+  
+    .city .form-1 {
+      margin-top: 120px;
+  
+      .inside-form{
+        padding: 10px 30px;
+  
+        input[type=text] {
+          font-size: 0.6em;
+        }
+    
+        label {
+          margin-right: 0;
+        }
+      }
+    }
+  
+    footer {
+      display: block;
+      
+      .icons {
+        justify-content: center;
+      }
+    }
+  
+    .hills {
+      .tabs {
+        padding: 10px;
+      }
+  
+      .text {
+        font-size: 0.5em;
+      }
+  
+      .photos {
+        gap: 0px;
+      }
+      img {
+        height: 170px;
+      }
+  
+      .shoes img {
+        width: 343px;
+      }
+    }
+  
+    .dark {
+      padding: 10px;
+      .logo {
+        transform: rotate(-90deg);
+        margin: 10px;
+        width: 300px;
+      }
+  
+      .text {
+        width: 300px;
+        h2 {
+          font-size: 1em;
+        }
+  
+        p {
+          font-size: 0.6em;
+        }
+
+        .divider-orange {
+          width: 100px;
+        }
+      }
+    }
+  
+    .awesome {
+      .container{
+        .awesome-items{
+          margin: 0 50px;
+        }
+      }
+    }
+  
+    .pricing {
+      .options {
+        .price-container {
+          width: 180px;
+  
+          .black {
+            h4 {
+              font-size: 4em;
+            }
+          }
+        }
+      }
+    }
+  
+    .comments {
+      
+      .swiper-wrapper {
+        display: flex;
+      }
+
+      .swiper-pagination {
+
+        .swiper-pagination-bullet {
+          margin-right: 5px;
+        }
+      }
+    }
+  
+    .end {
+      display: block;
+      i {
+        margin-right: 10px;
+      }
+  
+      p {
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 0;
+      }
+    }
+  }
+  
+  @media (max-width: 800px) {
+    nav {
+      img {
+        width: 100px;
+        margin-right: 1px;
+      }
+      .nav-buttons a {
+        margin-right: 2px;
+      }
+    }
+
+    .comments {
+
+      .swiper-pagination {
+
+        .swiper-pagination-bullet {
+          margin-right: 5px;
+        }
+      }
+    }
+  }

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    
+    <!-- Swiper css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="app/css/style.css">
+
+    <title>Praktinis egzaminas</title>
+</head>
+<body>
+
+  <nav>
+    <a href="#">
+      <img src="app/images/first-img.png" alt="logo">
+    </a>
+    <div class="nav-buttons">
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <i id="burger" class="fa-solid fa-bars"></i>
+  </nav>
+
+  <section class="city">
+    <div class="intro">
+      <img src="app/images/first-img.png" alt="logo">
+      <h2>Explained propriety of out perpetual to you</h2>
+      <div class="divider-white"></div>
+      <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained propriety of out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated astonished is.</p>
+      <button>DOWNLOAD</button>
+    </div>
+    <div class="form-1">
+      <div class="head"><h2>Try Your <span style="color: #E27866;">FREE</span> Trial Today</h2></div>
+      <div class="inside-form">
+        <p>Your details</p>
+        <input class="vardas" type = "text" name = "fname" placeholder="First name" />
+        <input class="pavarde" type = "text" name = "lname" placeholder="Last name" />
+        <input class="telnr" type = "text" name = "number" placeholder="Phone number" />
+        <p>Type of subscription</p>
+        <input id="monthly" type = "radio" name = "subject" value = "monthly"> 
+        <label for="monthly">MONTHLY</label>
+        <input id="yearly" type = "radio" name = "subject" value = "yearly"> 
+        <label for="monthly">YEARLY</label>
+      </div>
+      <div><button>GET STARTED</button></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="sm">
+      <h2>Social Media</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+    </div>
+    <div class="icons">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+      <i class="fa-solid fa-wifi fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+    </div>
+  </footer>
+
+  <section class="hills">
+    <div class="tabs">
+      <div class="tab" id="register"><p>REGISTER</p></div>
+      <div class="tab" id="apply"><p>APPLY</p></div>
+      <div class="tab" id="receive"><p>RECEIVE</p></div>
+    </div>
+    <div class="text">
+      <h2>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+    </div>
+    <div>
+      <div class="photos">
+        <div onclick="changeBg(event, 'register')" class="tablink leaf"><p>Exlpore</p></div>
+        <div onclick="changeBg(event, 'apply')" class="tablink veg"><p>Exlpore</p></div>
+      </div>
+      <div class="shoes">
+        <div onclick="changeBg(event, 'receive')" class="tablink shoe"><p>Exlpore</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="dark">
+    <img class="logo" src="app/images/first-img.png" alt="logo">
+    <div class="text">
+      <h2>Erat tempor tempus erat malesuada</h2>
+      <div class="divider-orange"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+      <div class="titles">
+        <div class="title-icon"><i class="fa-regular fa-eye"></i></div>
+        <div> 
+          <h3>Title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        </div>
+      </div>
+        <div class="titles">
+          <div class="title-icon"><i class="fa-regular fa-comment"></i></div>
+          <div>
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+  <section id="about" class="awesome">
+    <h2>WHY THIS IS AWESOME</h2>
+    <div class="divider-orange"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="container">
+      <div class="awesome-items">
+        <i class="fa-solid fa-award"></i>
+        <h3>Thoughtful Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod ibendum laoreet.</p>
+      </div>
+      <div class="awesome-items">
+        <i class="fa-solid fa-spa"></i>
+        <h3>Well Crafted</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Aenean euismod bibendum.</p>
+      </div>
+      <div class="awesome-items">
+        <i class="fa-brands fa-cc-visa"></i>
+        <h3>Easy to Customize</h3>
+        <p>Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2>PRICING OPTIONS</h2>
+    <div class="divider-green"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="options">
+      <div class="basic price-container">
+        <div class="black">
+          <h3>Basic</h3>
+          <h4>$0</h4>
+          <h5>Free for Life</h5>
+        </div>
+        <ul>
+          <li>1GB OF SPACE</li>
+          <li>10 GB OF BANDWIDTH</li>
+          <li>3 WEBSITES</li>
+          <li>BASIC CUSTOMIZATION</li>
+          <li>WORDPRESS INTEGRATION</li>
+          <li>EMAIL SUPPORT</li>
+        </ul>
+      </div>
+      <div class="prof price-container">
+        <div class="black">
+          <h3>Professional</h3>
+          <h4>$19</h4>
+          <h5>Monthly Payment</h5>
+        </div>
+        <ul>
+          <li>OUR MOST POPULAR</li>
+          <li>5GB OF SPACE</li>
+          <li>50 GB OF BANDWIDTH</li>
+          <li>12 WEBSITES</li>
+          <li>ADVANCED CUSTOMIZATION</li>
+          <li>WORDPRESS INTEGRATION</li>
+          <li>EMAIL SUPPORT</li>
+        </ul>
+      </div>
+      <div class="enterprice price-container">
+        <div class="black">
+          <h3>Enterprise</h3>
+          <h4>$70</h4>
+          <h5>Monthly Payment</h5>
+        </div>
+        <ul>
+          <li>UNLIMITED SPACE</li>
+          <li>UNLIMITED BANDWIDTH</li>
+          <li>100 WEBSITES</li>
+          <li>ADVANCED CUSTOMIZATION</li>
+          <li>WORDPRESS INTEGRATION</li>
+          <li>24/7 CUSTOMER SUPPORT</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="comments">
+    <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
+    <div class="divider-blue"></div>
+    
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="heads">
+            <p class="bubble">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+            <div class="chat-container">
+              <img src="app/images/avatar.png" alt="avatar">
+              <div class="name">
+                <h4>Jeremy H.</h4>
+                <p>Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="heads">
+            <p class="bubble">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+            <div class="chat-container">
+              <img src="app/images/avatar.png" alt="avatar">
+              <div class="name">
+                <h4>John S.</h4>
+                <p>Freelancer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="heads">
+            <p class="bubble">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+            <div class="chat-container">
+              <img src="app/images/avatar.png" alt="avatar">
+              <div class="name">
+                <h4>Susan W.</h4>
+                <p>Photographer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="heads">
+            <p class="bubble">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+            <div class="chat-container">
+              <img src="app/images/avatar.png" alt="avatar">
+              <div class="name">
+                <h4>Peter A.</h4>
+                <p>Programmer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>CONTACT US</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="form-2">
+      <form>
+        <input class="vardas" type = "text" name = "fname" placeholder="First name" />
+        <input class="pavarde" type = "text" name = "lname" placeholder="Last name" />
+        <input class="telnr" type = "text" name = "number" placeholder="Phone number" />
+        <input id="personal" type = "radio" name = "subject" value = "personal"> 
+        <label for="personal">PERSONAL</label>
+        <input id="company" type = "radio" name = "subject" value = "company"> 
+        <label for="company">COMPANY</label>
+      </form>
+      <button>SEND</button>
+    </div>
+  </section>
+
+  <section class="end">
+    <div>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+      <i class="fa-solid fa-wifi fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+    </div>
+    <p>© 2019 Cheshire County</p>
+  </section>
+
+  <!-- Swiper js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  
+  <!-- Custom js -->
+  <script src="script.js"></script>
+</body>
+</html>

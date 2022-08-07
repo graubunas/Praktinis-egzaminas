@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+  
+    .sm {
+      margin-right: 60px;
+  
+      h2 {
+        font-size: 1.1em;
+      }
+    
+      p {
+        font-size: 0.7em;
+        padding: 5px 0;
+        width: 80%;
+      }
+    }
+  
+    .icons {
+      display: flex;
+      align-items: center;
+  
+      i {
+        height: 30px;
+        width: 30px;
+        margin-right: 60px;
+        opacity: 60%;
+        color: $color-orange;
+      }
+    }
+  }

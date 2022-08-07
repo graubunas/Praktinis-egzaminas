@@ -1,0 +1,62 @@
+nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    background: $color-black;
+    align-items: center;
+    z-index: 999;
+  
+    .rotate {
+      transform: scale(1.5) rotate(-90deg);
+    }
+    
+    i {
+      transform: scale(1.5);
+      color: $color-grey;
+      transition: color 0.1s ease-in-out;
+    }
+  
+    #burger {
+      display: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  
+    img {
+      padding: 10px;
+      width: 150px;
+    }
+  
+    .nav-buttons {
+      display: flex;
+      
+      a {
+      text-decoration: none;
+      width: 60px;
+      align-items: center;
+      position: relative;
+      color: $color-grey;
+      margin: 30px;
+      transition: 0.4s;
+      }
+  
+      a:hover {
+        color: #FFFFFF;
+        cursor: pointer;
+      }  
+  
+      a::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        transition: 0.4s;
+        transform: translateY(150%);
+      }  
+      a:hover::before {
+        border-bottom: 1px solid $color-orange;
+        transform: translateY(0%);
+      }
+    }
+  }

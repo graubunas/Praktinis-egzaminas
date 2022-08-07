@@ -1,0 +1,86 @@
+.comments {
+    text-align: center;
+  
+    h2 {
+      margin-top: 70px;
+    }
+  
+    .divider-blue {
+      width: 64px;
+      height: 2px;
+      background: $color-blue;
+      margin: 20px auto;
+    }
+  
+    .swiper {
+      height: 300px;
+
+      .swiper-wrapper {
+
+        .swiper-slide {
+          display: flex;
+          align-items: flex-end;
+
+          .heads {
+            margin: 20px 10px;
+            width: 273px;  
+            margin: auto;
+            
+            
+            .bubble {
+              background: $color-blue;
+              color: white;
+              border-radius: 5px;
+              padding: 10px;
+              text-align: left;
+              font-size: 0.9em;
+              line-height: 20px;
+              width: 273px;
+              margin-bottom: 10px;
+              position: relative;
+            }
+      
+            .bubble::after {
+              content: "";
+              position: absolute;
+              bottom: -25px;
+              right: 80%;
+              border: 15px solid transparent;
+              border-top-color: $color-blue;
+            }
+      
+            .chat-container {
+              display: flex;
+              padding: 20px 0;
+      
+              .name {
+                padding: 10px;
+                text-align: left;
+      
+                h4 {
+                  font-weight: normal;
+                }
+      
+                p {
+                  font-size: 0.6em;
+                }
+              }
+            }
+          }
+        }
+      }
+    
+      .swiper-pagination-bullet {
+        background: white;
+        margin-right: 5px;
+        width: 10px;
+        height: 10px;
+        border: 2px solid $color-orange;
+        transition: 0.3s;
+      }
+      
+      .swiper-pagination-bullet-active {
+        background: $color-orange;
+      }
+    }
+  }

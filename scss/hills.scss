@@ -1,0 +1,138 @@
+.hills {
+  background: url("../images/hills.png");
+  background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    
+    .tabs {
+      padding: 50px; 
+  
+      .tab {
+        width: 100px;
+        height: 100px;
+        background: $color-brown;
+        color: white;
+        margin: 15px 0;
+        text-align: center;
+        
+        p {
+          transform: rotate(-30deg);
+          justify-content: center;
+          padding: 40px 0;
+        }
+      }
+    }
+  
+    .text {
+      color: white;
+      width: 500px;
+      margin-right: 20px;
+  
+      h2 {
+        margin: 20px 0;
+      }
+  
+      p {
+        margin: 20px 0;
+      }
+    }
+  
+    .photos {
+      display: flex;
+      gap: 7px;
+
+      .leaf,
+      .veg {
+        width: 168px;
+        height: 168px;
+        margin: 5px;
+
+        p {
+          color: white;
+          text-align: center;
+          font-weight: bold;
+          line-height: 168px;
+          display: none;
+        }
+      }
+
+      .leaf {
+        background: url("../images/leaf.png");
+        background-position: center;
+      }
+
+      .leaf:hover {
+        background: linear-gradient(
+          rgba(226, 120, 102, 0.5), 
+          rgba(226, 120, 102, 0.5)
+        ), url("../images/leaf.png");
+        background-position: center;        
+
+        p {
+          display: block;
+        }
+      }
+
+      .veg {
+        background: url("../images/vegs.png");
+        background-position: center;
+      }
+
+      .veg:hover {
+        background: linear-gradient(
+          rgba(226, 120, 102, 0.5), 
+          rgba(226, 120, 102, 0.5)
+        ),
+         url("../images/vegs.png");
+        background-position: center;
+
+        p {
+          display: block;
+          opacity: 1;
+        }
+      }
+    }
+
+    .shoes {
+      p {
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        line-height: 168px;
+        display: none;
+      }
+
+      .shoe {
+        width: 353px;
+        height: 177px;
+        background: url("../images/shoes.png");
+        background-position: center;
+        margin: 5px;
+
+      }
+
+      .shoe:hover {
+        background: linear-gradient(
+          rgba(226, 120, 102, 0.5), 
+          rgba(226, 120, 102, 0.5)
+        ), url("../images/shoes.png");
+        background-position: center;
+
+        p {
+          display: block;
+          opacity: 1;
+        }
+      }
+    }
+
+    .tablink:hover {
+      cursor: pointer;
+    }
+
+    .selected {
+      background: $color-orange !important;
+    }
+  }
